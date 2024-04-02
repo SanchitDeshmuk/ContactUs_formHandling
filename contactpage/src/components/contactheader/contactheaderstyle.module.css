@@ -1,0 +1,14 @@
+.main{
+    padding: 3vmin 65vmin 3vmin 20vmin;
+}
+
+.main h1{
+    font-size: 6vmin;
+    font-weight: 900;
+}
+
+.main p{
+    color: rgb(111, 109, 109);
+    margin: 3vmin 0 0 0;
+    font-size: 2.2vmin;
+}

@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box_1_a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.emailbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1.5vmin;
+    gap: 3vmin;
+    font-size: 1.9vmin;
+    margin-top: 3vmin;
+}
+
+.emailbtn:hover{
+    background-color: black;
+    color: white;
+}
+
+.formContainer{
+    margin-top: 4vmin;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.formContainer label{
+    position: absolute;
+    top: -1.5vmin;
+    left: 2vmin;
+    background-color: white;
+    padding: 0.5vmin;
+}
+
+.formContainer input{
+    border: 1px solid black;
+    height: 5.5vmin;
+    padding: 1vmin;
+}
+
+.textareacontainer{
+    min-height: 10vw !important ;
+    min-width: 100%;
+    padding: 2vmin 0 0 1vmin;
+}
+
+.submitbuttonstyle{
+    margin-top: 4vmin;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}

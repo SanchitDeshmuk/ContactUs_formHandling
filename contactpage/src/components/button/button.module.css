@@ -1,0 +1,21 @@
+.btn{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vmin 5vmin;
+    height: 3vmin;
+    width: 30vmin;
+    gap: 1.5vmin;
+    border-radius: 10px;
+}
+
+.btn h3{
+    font-size: 1.9vmin;
+}
+
+.btn:hover{
+    background-color: rgb(114, 113, 113);
+    color: black;
+}

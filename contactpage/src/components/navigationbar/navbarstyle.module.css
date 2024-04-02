@@ -1,0 +1,31 @@
+nav{
+    height: 12vmin;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vmin 10vmin;
+}
+
+nav img{
+    height: 11vmin;
+    width: 12vmin;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5vmin;
+}
+
+nav h3{
+    padding: 2.5vmin 4vmin;
+    font-size: 2.5vmin;
+}
+
+nav h3:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
